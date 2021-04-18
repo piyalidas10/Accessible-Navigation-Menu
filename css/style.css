@@ -1,0 +1,14 @@
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover, .nav-link:focus, .nav-link:hover {
+    outline-color: transparent;
+}
+.navbar a.activeFocus {
+    outline-color: red !important;
+}
+.dropdown-menu {
+    margin: 0;
+    display: block;
+    visibility: hidden;
+}
+.dropdown-menu.show {
+    visibility: visible;
+}
